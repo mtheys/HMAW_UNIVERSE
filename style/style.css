@@ -1,0 +1,164 @@
+ /* General Styles */
+ body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('../images/banner.jpeg'); /* You can replace this with a suitable cinematic banner */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Dropdown Container */
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.main-content section {
+    background-color: #252525;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    max-width: 30%;
+}
+
+.main-content section h2 {
+    color: #e0e0e0;
+}
+
+.main-content section img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.main-content section p {
+    color: #ccc;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.character-link {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.character-link a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.character-link a:hover {
+    color: #fff;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-content section {
+        max-width: 100%;
+    }
+}
+
+.superhero-font {
+    font-family: 'Impact', 'Arial Black', sans-serif; /* Bold and strong font */
+    text-transform: uppercase; /* Makes all text uppercase for a bold effect */
+    font-weight: 900; /* Maximum font weight for extra boldness */
+    font-size: 5rem; /* Large font size */
+    color: #ffcc00; /* Bright superhero color, adjust as needed */
+    letter-spacing: 2px; /* Adds space between letters for a dramatic effect */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a subtle shadow for depth */
+    background: linear-gradient(45deg, #ffcc00, #ff0000); /* Optional gradient background for extra effect */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Clips gradient inside the text */
+}

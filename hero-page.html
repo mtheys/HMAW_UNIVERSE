@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero List - HMAW Cinematic Universe</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #222;
+            color: #fff;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            color: #ffcc00; /* Bright color for title */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .hero-card {
+            background-color: #444;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 15px;
+            width: 300px; /* Set a fixed width for the cards */
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .hero-card img {
+            width: 100%; /* Make the image responsive */
+            height: 300px;
+            border-radius: 10px 10px 0 0; /* Round the top corners */
+        }
+
+        .hero-card h2 {
+            color: #ffcc00; /* Bright color for hero names */
+        }
+
+        .hero-card p {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+
+        .hero-card a {
+            display: inline-block;
+            background-color: #ffcc00; /* Button color */
+            color: #222; /* Button text color */
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .hero-card a:hover {
+            background-color: #e6b800; /* Darker yellow on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Superhero List</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <div class="dropdown">
+            <a href="#heroes">Heroes</a>
+            <div class="dropdown-content">
+                <a href="druig.html">Druig</a> <!-- Replace with actual page links -->
+                <a href="solar.html">Solar</a>
+                <a href="blackPanther.html">Black Panther</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="#mystics">Mystics</a>
+            <div class="dropdown-content">
+                <a href="mystic1.html">Mystic 1</a> <!-- Replace with actual page links -->
+                <a href="mystic2.html">Mystic 2</a>
+                <a href="mystic3.html">Mystic 3</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="#warriors">Warriors</a>
+            <div class="dropdown-content">
+                <a href="warrior1.html">Warrior 1</a> <!-- Replace with actual page links -->
+                <a href="warrior2.html">Warrior 2</a>
+                <a href="warrior3.html">Warrior 3</a>
+            </div>
+        </div>
+
+        <a href="#events">Upcoming Events</a>
+    </nav>
+
+    <!-- Container for Superhero Cards -->
+    <div class="container">
+        <!-- Superhero Card 1 -->
+        <div class="hero-card">
+            <img src="images/druig.JPG" alt="Druig from Eternals"> <!-- Replace with actual image -->
+            <h2>Druig</h2>
+            <p>Druig is a member of the Eternals, known for his telepathic abilities and enigmatic personality.</p>
+            <a href="druig.html">Learn More</a> <!-- Link to Druig's page -->
+        </div>
+
+        <!-- Superhero Card 2 -->
+        <div class="hero-card">
+            <img src="images/solar.JPG" alt="Sersi from Eternals"> <!-- Replace with actual image -->
+            <h2>Solar</h2>
+            <p>Solar Sentinel is a guardian of the Earth, harnessing the power of the sun to protect humanity.</p>
+            <a href="solar.html">Learn More</a> <!-- Link to Sersi's page -->
+        </div>
+
+        <!-- Superhero Card 3 -->
+        <div class="hero-card">
+            <img src="images/blackPanther.jpeg" alt="Black Panther"> <!-- Replace with actual image -->
+            <h2>Black Panther</h2>
+            <p>Black Panther, also known as T'Challa, is the king of the African nation of Wakanda.</p>
+            <a href="blackPanther.html">Learn More</a> <!-- Link to Ikarus's page -->
+        </div>
+
+        <!-- Superhero Card 4 -->
+        <div class="hero-card">
+            <img src="images/nightBlade.jpg" alt="Nightblade"> <!-- Replace with actual image -->
+            <h2>Nightblade</h2>
+            <p>Born as Kai Nova, Nightblade was once a member of a secret government experiment</p>
+            <a href="nightBlade.html">Learn More</a> <!-- Link to Ikarus's page -->
+        </div>
+
+        <!-- Superhero Card 5 -->
+        <div class="hero-card">
+            <img src="images/wonderWoman.JPG" alt="Wonderwoman"> <!-- Replace with actual image -->
+            <h2>Wonder Woman</h2>
+            <p>Wielding the Lasso of Truth, Wonder Woman compels honesty from all who are captured by it.</p>
+            <a href="wonderWoman.html">Learn More</a> <!-- Link to Ikarus's page -->
+        </div>
+
+        <!-- Add more superhero cards as needed -->
+    </div>
+
+</body>
+</html>

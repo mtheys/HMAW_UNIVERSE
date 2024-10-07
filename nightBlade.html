@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nightblade - The Shadow Guardian</title>
+    <style>
+        /* Global styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #ff4500;
+            text-transform: uppercase;
+            margin: 20px 0;
+            letter-spacing: 2px;
+        }
+
+        .hero-container {
+            background-color: #1c1c1c;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+            width: 80%;
+            max-width: 1000px;
+            text-align: center;
+            padding: 30px;
+            margin: 20px 0;
+            border: 2px solid #ff4500;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        .description {
+            font-size: 1.2em;
+            margin-top: 20px;
+            line-height: 1.8;
+        }
+
+        /* Unique Power styling */
+        .unique-power {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #ff4500, #ff914d);
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.5);
+        }
+
+        .unique-power:hover {
+            background: linear-gradient(135deg, #ff914d, #ff4500);
+            box-shadow: 0 0 30px rgba(255, 69, 0, 0.7);
+        }
+
+        /* Hero backstory section */
+        .backstory {
+            margin-top: 40px;
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #b8b8b8;
+        }
+
+        .backstory-title {
+            font-size: 1.8em;
+            color: #00cc88;
+            margin-bottom: 10px;
+        }
+
+        /* Abilities list styling */
+        .abilities-list {
+            margin: 40px 0;
+            padding: 20px;
+            background-color: #2b2b2b;
+            border-radius: 10px;
+        }
+
+        .abilities-list h2 {
+            font-size: 1.8em;
+            color: #ff914d;
+            margin-bottom: 20px;
+        }
+
+        .abilities-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .abilities-list ul li {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #333;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .abilities-list ul li:hover {
+            background-color: #444;
+        }
+
+        /* Hero gallery */
+        .hero-gallery {
+            margin-top: 40px;
+        }
+
+        .gallery-title {
+            font-size: 1.8em;
+            color: #ff4500;
+        }
+
+        .gallery-images {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .gallery-images img {
+            width: 30%;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-images img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #888;
+            text-align: center;
+            width: 100%;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #ff914d;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Nightblade - The Shadow Guardian</h1>
+
+    <div class="hero-container">
+        <!-- Superhero Image -->
+        <img src="images/nightBlade.jpg" alt="Nightblade">
+
+        <!-- Superhero Description -->
+        <div class="description">
+            <p><strong>Nightblade</strong> is the silent protector of a dystopian city. With a highly advanced suit that combines the best of technology and stealth, Nightblade defends the innocent. Known for being able to navigate the darkest corners of the city with ease, this hero’s ability to harness energy from shadows gives them unparalleled power in the dead of night.</p>
+        </div>
+
+        <!-- Superhero Unique Power -->
+        <div class="unique-power">
+            Unique Power: Shadow Energy Manipulation
+        </div>
+
+        <!-- Superhero Backstory -->
+        <div class="backstory">
+            <h2 class="backstory-title">The Tragic Origins of Nightblade</h2>
+            <p>Born as Kai Nova, Nightblade was once a member of a secret government experiment to create super-soldiers. When the program was exposed for its unethical practices, Kai became a vigilante, fighting back against corruption and seeking justice for those harmed by the government. His ability to manipulate shadow energy was a side effect of the experiments, making him both feared and revered.</p>
+        </div>
+
+        <!-- Abilities Section -->
+        <div class="abilities-list">
+            <h2>Abilities & Skills</h2>
+            <ul>
+                <li>Shadow Energy Manipulation: Control and shape shadows into powerful constructs.</li>
+                <li>Stealth Mode: Become invisible in low light conditions, moving undetected by enemies.</li>
+                <li>Flight: Nightblade’s wings allow for fast and agile flight through the city.</li>
+                <li>Enhanced Reflexes: Superhuman speed and agility, making Nightblade a force in combat.</li>
+                <li>Tactical Genius: A brilliant strategist, always one step ahead of his foes.</li>
+            </ul>
+        </div>
+
+        <!-- Hero Gallery Section -->
+        <div class="hero-gallery">
+            <h2 class="gallery-title">Hero Gallery</h2>
+            <div class="gallery-images">
+                <img src="A_dynamic_superhero_character_standing_confidently.png" alt="Nightblade in Action">
+                <img src="A_powerful_superhero_character_with_sleek,_black-a.png" alt="Nightblade in Flight">
+                <img src="A_powerful_superhero_character_with_sleek,_black-a.png" alt="Nightblade Ready for Battle">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Nightblade Universe | <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a>
+    </footer>
+
+</body>
+</html>
